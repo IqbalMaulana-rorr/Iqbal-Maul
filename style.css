@@ -1,0 +1,57 @@
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+ box-sizing: border-box;
+} 
+
+
+.hero .bg-hero{
+    background-image: url(perpus.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+    -webkit-border-radius: 50px;
+    -moz-border-radius:50px;
+    -o-border-radius:50px;
+    -ms-border-radius: 50px;
+}
+#produk .card{
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+
+#about .bg-about{
+    background-color: rgb(165, 165, 165);
+    height: 250px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#cta .bg-cta{
+    background-image:url(buku01.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 70px;
+    text-align: center;
+    
+}
+
+.judul{
+    color: rgb(0, 0, 0);
+}
+
+.buku .harga-buku{
+    border: 1px solid green;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius:25px;
+    -o-border-radius:25px;
+    -ms-border-radius:25px;
+}
